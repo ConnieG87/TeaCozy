@@ -22,6 +22,9 @@ header {
   width: 100%;
   height: 69px;
   border-bottom: 1px solid seashell;
+  position: fixed;
+  z-index: 1;
+  background-color: black;
 }
 
 .logo {
@@ -33,4 +36,17 @@ header {
 
 .logo img {
   height: 50px;
+}
+
+#mission {
+  margin: auto;
+  padding-top: 70px;
+  background-image: url("../images/img-mission-background.jpg");
+  background-repeat: no-repeat;
+  height: 700px;
+  width: 1200px;
+}
+
+.missionStatement {
+  background-color: black;
 }
