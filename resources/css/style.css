@@ -8,12 +8,6 @@ body {
   text-align: center;
 }
 
-.content {
-  width: 1200px;
-  margin: auto;
-  padding-top: 69px;
-}
-
 h2, h3, h4 {
     margin: 0;
     padding: 10px;
@@ -21,10 +15,6 @@ h2, h3, h4 {
 
 a {
   color: Seashell;
-}
-
-nav span {
-  padding: 10px;
 }
 
 header {
@@ -38,6 +28,10 @@ header {
   background-color: black;
 }
 
+nav span {
+  padding: 10px;
+}
+
 .logo {
   display: flex;
   align-items: center;
@@ -49,33 +43,36 @@ header {
   height: 50px;
 }
 
-#mission {
-  margin: auto;
-  padding-top: 70px;
-  background-image: url("../images/img-mission-background.jpg");
-  background-repeat: no-repeat;
-  height: 700px;
+.content {
   width: 1200px;
+  margin: auto;
+  padding-top: 69px;
+}
+
+#mission {
   display: flex;
   align-items: center;
+  padding-top: 70px;
+  height: 700px;
+  background-image: url("../images/img-mission-background.jpg");
 }
 
 .missionStatement {
-  width: 1200px;
+  width: 100%;
   background-color: black;
 }
 
 #featured {
-  width: 1050px;
+  width: 1000px;
   height: 700px;
-  margin: auto;
   padding-top: 70px;
+  margin: auto;
 }
 
 .teas {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .tea {
@@ -88,7 +85,6 @@ header {
 }
 
 #locations {
-  width: 1200px;
   height: 500px;
   padding-top: 70px;
   background-image: url("../images/img-locations-background.jpg")
@@ -100,11 +96,11 @@ header {
 }
 
 .location {
-  background: black;
   width: 280px;
-  margin: 5px 40px 0px 5px;
-  opacity: 1;
+  margin: 5px 20px 5px 20px;
   padding: 10px;
+  background: black;
+  opacity: 1;
 }
 
 .location span {
@@ -112,6 +108,11 @@ header {
   padding: 20px 0;
 }
 
+.contact {
+  height: 200px;
+}
+
 .copyright {
+  padding-left: 20px;
   text-align: left;
 }
